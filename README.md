@@ -84,25 +84,28 @@ echo "world" > file2.txt
 | 3A | `pes init` → `pes add` → `pes status` sequence | (<img width="750" height="722" alt="Screenshot 2026-04-21 at 12 30 37 PM" src="https://github.com/user-attachments/assets/8cb7c5de-fed1-47e2-8969-f0c06d6ab0f4" />
 
 ) |
-| 3B | `cat .pes/index` — human-readable index file | (<img width="1118" height="103" alt="image" src="https://github.com/user-attachments/assets/4e5c1164-9e09-4734-9b63-e1f376454d99" />
+| 3B | `cat .pes/index` — human-readable index file | (<img width="805" height="75" alt="image" src="https://github.com/user-attachments/assets/9d259074-6b99-4be2-8c54-f8b37f4ec632" />
+
 ) |
 
 ### Phase 4 — Commits and History
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 4A | `pes log` — three commits with hashes, authors, timestamps | (<img width="1229" height="764" alt="image" src="https://github.com/user-attachments/assets/830fc737-b23c-4ca2-b6a6-2dfa54f6aacb" />
+| 4A | `pes log` — three commits with hashes, authors, timestamps | (<img width="939" height="730" alt="image" src="https://github.com/user-attachments/assets/dd5089df-9e7b-4761-a6d9-8c60b71db451" />
+
 ) |
-| 4B | `find .pes -type f \| sort` — object store growth | (<img width="1222" height="317" alt="image" src="https://github.com/user-attachments/assets/fc7ab175-2f0e-4455-912f-70e0a341ad78" />
+| 4B | `find .pes -type f \| sort` — object store growth | (<img width="714" height="231" alt="image" src="https://github.com/user-attachments/assets/363b21de-157d-4d5a-a8a3-99715211689a" />
+
 ) |
-| 4C | `cat .pes/refs/heads/main` and `cat .pes/HEAD` | (<img width="1229" height="116" alt="image" src="https://github.com/user-attachments/assets/749eaaf0-46bf-421a-b72e-1198dd2cb0a2" />
-) |
+| 4C | `cat .pes/refs/heads/main` and `cat .pes/HEAD` | (<img width="663" height="70" alt="image" src="https://github.com/user-attachments/assets/b47e55d4-1851-4557-8ecd-cef6ce8d96e5" />
+
 
 ### Final Integration Test
 
-<img width="1369" height="778" alt="image" src="https://github.com/user-attachments/assets/fb1fbf99-ae89-4668-b256-bb895774d329" />
+<img width="978" height="673" alt="image" src="https://github.com/user-attachments/assets/643181e1-9390-41ec-bef8-c86b60a29d22" />
 
-<img width="1367" height="868" alt="image" src="https://github.com/user-attachments/assets/17191b4a-ed28-4a47-8972-611ffda7d8bf" />
+<img width="721" height="665" alt="image" src="https://github.com/user-attachments/assets/26fd7340-8f5e-4a61-9fb4-3418aa6fabce" />
 
 
 ---
