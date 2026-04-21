@@ -8,7 +8,7 @@
 
 | Name | SRN |
 |------|-----|
-| Ashwin Anand | PES1UG24AM057 |
+| Anvith Vegi | PES1UG24AM047 |
 
 ---
 
@@ -64,24 +64,26 @@ echo "world" > file2.txt
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 1A | `./test_objects` output — all tests passing | (<img width="1265" height="623" alt="image" src="https://github.com/user-attachments/assets/353e657e-3a95-4397-965f-90a3d5031a55" />
-) |
-| 1B | `find .pes/objects -type f` — sharded directory structure | (<img width="894" height="122" alt="image" src="https://github.com/user-attachments/assets/5e22832f-adee-4c6a-9b16-ca3578869be7" />
+| 1A | `./test_objects` output — all tests passing | (<img width="1390" height="508" alt="image" src="https://github.com/user-attachments/assets/711ea732-b225-4816-ae3d-10e2f9b2015b" />)
+|
+| 1B | `find .pes/objects -type f` — sharded directory structure | (<img width="1384" height="402" alt="image" src="https://github.com/user-attachments/assets/8a00b65d-790b-4a52-8c4a-60558f7d43b6" />
 ) |
 
 ### Phase 2 — Tree Objects
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 2A | `./test_tree` output — all tests passing | (<img width="1342" height="656" alt="image" src="https://github.com/user-attachments/assets/d5c948b8-9962-41d7-927f-1f79ad96df35" />
+| 2A | `./test_tree` output — all tests passing | (<img width="1834" height="276" alt="image" src="https://github.com/user-attachments/assets/f592f2c3-3298-4a00-be71-7125edbdc07f" />
 ) |
-| 2B | `xxd` dump of a raw tree object (first 20 lines) | ![2B](placeholder) |
+| 2B | `xxd` dump of a raw tree object (first 20 lines) | (<img width="1834" height="220" alt="image" src="https://github.com/user-attachments/assets/5814ab53-6d28-48de-9370-2fce3742ba1b" />
+)|
 
 ### Phase 3 — Staging Area (Index)
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 3A | `pes init` → `pes add` → `pes status` sequence | (<img width="1125" height="713" alt="image" src="https://github.com/user-attachments/assets/ae70c88d-8a8e-4e04-9097-aa58099caed9" />
+| 3A | `pes init` → `pes add` → `pes status` sequence | (<img width="750" height="722" alt="Screenshot 2026-04-21 at 12 30 37 PM" src="https://github.com/user-attachments/assets/8cb7c5de-fed1-47e2-8969-f0c06d6ab0f4" />
+
 ) |
 | 3B | `cat .pes/index` — human-readable index file | (<img width="1118" height="103" alt="image" src="https://github.com/user-attachments/assets/4e5c1164-9e09-4734-9b63-e1f376454d99" />
 ) |
