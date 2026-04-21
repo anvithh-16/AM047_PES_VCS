@@ -8,7 +8,7 @@
 
 | Name | SRN |
 |------|-----|
-| Ashwin Anand | PES1UG24AM057 |
+| Anvith Vegi  | PES1UG24AM047 |
 
 ---
 
@@ -64,34 +64,37 @@ echo "world" > file2.txt
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 1A | `./test_objects` output — all tests passing | (<img width="1390" height="508" alt="image" src="https://github.com/user-attachments/assets/711ea732-b225-4816-ae3d-10e2f9b2015b" />) |
-| 1B | `find .pes/objects -type f` — sharded directory structure | ![1B](placeholder) |
+| 1A | `./test_objects` output — all tests passing | <img width="1390" height="508" alt="image" src="https://github.com/user-attachments/assets/711ea732-b225-4816-ae3d-10e2f9b2015b" /> |
+| 1B | `find .pes/objects -type f` — sharded directory structure | <img width="1384" height="402" alt="image" src="https://github.com/user-attachments/assets/8a00b65d-790b-4a52-8c4a-60558f7d43b6" /> |
 
 ### Phase 2 — Tree Objects
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 2A | `./test_tree` output — all tests passing | ![2A](placeholder) |
-| 2B | `xxd` dump of a raw tree object (first 20 lines) | ![2B](placeholder) |
+| 2A | `./test_tree` output — all tests passing | <img width="1834" height="276" alt="image" src="https://github.com/user-attachments/assets/f592f2c3-3298-4a00-be71-7125edbdc07f" /> |
+| 2B | `xxd` dump of a raw tree object (first 20 lines) | <img width="1834" height="220" alt="image" src="https://github.com/user-attachments/assets/5814ab53-6d28-48de-9370-2fce3742ba1b" /> |
 
 ### Phase 3 — Staging Area (Index)
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 3A | `pes init` → `pes add` → `pes status` sequence | ![3A](placeholder) |
-| 3B | `cat .pes/index` — human-readable index file | ![3B](placeholder) |
+| 3A | `pes init` → `pes add` → `pes status` sequence | <img width="750" height="722" alt="Screenshot 2026-04-21 at 12 30 37 PM" src="https://github.com/user-attachments/assets/8cb7c5de-fed1-47e2-8969-f0c06d6ab0f4" /> |
+| 3B | `cat .pes/index` — human-readable index file | <img width="805" height="75" alt="image" src="https://github.com/user-attachments/assets/9d259074-6b99-4be2-8c54-f8b37f4ec632" /> |
 
 ### Phase 4 — Commits and History
 
 | ID | Description | Screenshot |
 |----|-------------|------------|
-| 4A | `pes log` — three commits with hashes, authors, timestamps | ![4A](placeholder) |
-| 4B | `find .pes -type f \| sort` — object store growth | ![4B](placeholder) |
-| 4C | `cat .pes/refs/heads/main` and `cat .pes/HEAD` | ![4C](placeholder) |
+| 4A | `pes log` — three commits with hashes, authors, timestamps | <img width="939" height="730" alt="image" src="https://github.com/user-attachments/assets/dd5089df-9e7b-4761-a6d9-8c60b71db451" /> |
+| 4B | `find .pes -type f \| sort` — object store growth | <img width="714" height="231" alt="image" src="https://github.com/user-attachments/assets/363b21de-157d-4d5a-a8a3-99715211689a" /> |
+| 4C | `cat .pes/refs/heads/main` and `cat .pes/HEAD` | <img width="663" height="70" alt="image" src="https://github.com/user-attachments/assets/b47e55d4-1851-4557-8ecd-cef6ce8d96e5" /> |
 
 ### Final Integration Test
 
-![Integration Test](placeholder)
+<img width="978" height="673" alt="image" src="https://github.com/user-attachments/assets/643181e1-9390-41ec-bef8-c86b60a29d22" />
+
+<img width="721" height="665" alt="image" src="https://github.com/user-attachments/assets/26fd7340-8f5e-4a61-9fb4-3418aa6fabce" />
+
 
 ---
 
